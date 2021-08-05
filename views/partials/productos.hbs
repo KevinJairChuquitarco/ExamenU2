@@ -6,6 +6,7 @@
                 <p>Productos garantizados</p>
                 <button> INVENTARIO </button> 
             </div>
+            {{#getProductos}}
             {{#each productos}}
                 <div>
                     <img src="{{url}}" alt="">
@@ -13,4 +14,5 @@
                     <p>$ {{precio}}</p>
                 </div>
             {{/each}}
-        </section>
+            {{/getProductos}}
+    </section>
