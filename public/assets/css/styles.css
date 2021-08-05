@@ -102,8 +102,8 @@ main section aside {
 }
 
 #inventario h1{
-        font-size: 35px;
-        color: white;
+    font-size: 35px;
+    color: white;
 }
 
 #contactos {
@@ -138,6 +138,7 @@ footer div{
     color: white;
 }
 footer div p {
+    margin: 3px;
     color: #edae49;
     font-size: 15px;
 }
