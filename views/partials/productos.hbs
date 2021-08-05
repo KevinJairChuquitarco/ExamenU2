@@ -1,0 +1,16 @@
+<section id="inventario">
+            
+            <div>
+                <h2>Productos</h2>
+                <h1>Revise nuestros productos</h1>
+                <p>Productos garantizados</p>
+                <button> INVENTARIO </button> 
+            </div>
+            {{#each productos}}
+                <div>
+                    <img src="{{url}}" alt="">
+                    <h2>{{nombre}}</h2>
+                    <p>{{precio}}</p>
+                </div>
+            {{/each}}
+        </section>
